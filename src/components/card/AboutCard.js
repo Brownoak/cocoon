@@ -2,7 +2,7 @@ import CardItem from "./CardItem";
 import extImg from "../../assets/images/exteded.svg";
 import image1 from "../../assets/images/card1.svg";
 import image2 from "../../assets/images/card2.svg";
-
+import Button from "../button/Button";
 
 
 const AboutCard = () => {
@@ -40,11 +40,7 @@ const AboutCard = () => {
         </div>
       </div>
       <div className="py-4 pl-32">
-        <button
-          className={` mr-5  flex   md: bg-main py-3 w-36  text-xm gap-6 items-center justify-center  font-bold  text-white hover:ring-gray-500 rounded-2xl r block lg:visible `}
-        >
-          Contact Us
-        </button>
+        <Button title="Contact Us"/>
       </div>
     </div>
   );
